@@ -15,6 +15,7 @@ Tags: Site institucional, Contabilidade, Moderno
 	width: 1024px;
 	margin: 0 auto;
 	overflow: hidden;
+	padding: 0;
 }
 
 header#topo{
@@ -36,49 +37,126 @@ header#topo{
 
 		ul{
 			margin: 0;
-		}
 
-		ul li{
+			li{
 			float: left;
+			}
 		}
 
 		&#topo1 ul{
 			float: right;
-		}
 
-		&#topo1 ul li{
+			li{
 			font-size: 10px;
 			color: @corT;
 			padding: 18px 10px 15px 10px;
 			cursor: pointer;
 
-			&:hover{
-				color: @blue;
-			}
+				&:hover{
+					color: @blue;
+				}
 
-			&.idioma{
-				background: @blue url('../img/bg/topo1.png') no-repeat bottom right;
-				color: white;
-			}
+				&.idioma{
+					background: @blue url('../img/bg/topo1.png') no-repeat bottom right;
+					color: white;
+				}
 
-			&.none:hover{
-				color: @corT;
-				cursor: default;
+				&.none:hover{
+					color: @corT;
+					cursor: default;
+				}
 			}
 		}
 
-		&#topo2 ul a{
+		&#topo2 ul{ 
+			a{
 			color: @corT;
 
+				&:hover{
+					color: @blue;
+				}
+			}
+
+			li{
+			margin: 10px 13px;
+			}
+		}
+
+	}
+}
+
+nav#menu{
+	width: 100%;
+	height: 80px;
+	background-color: #454545;
+	overflow: hidden;
+
+	ul{
+		margin: 0;
+		padding: 0;
+		a{
+			color: white;
+			text-decoration: none;
+			font-size: 15px;
+			line-height: 18px;
+
 			&:hover{
 				color: @blue;
 			}
 		}
 
-		&#topo2 ul li{
-			margin: 10px 13px;
+		li{
+			float: left;
+			margin: 20px 50px 20px 0;
+			padding-left: 45px;
+			background: url('../img/tofoo.png') no-repeat;
+
+			&.menu01{
+				background-position: -1px -134px;
+				&:hover{
+					background-position: -311px -134px;
+				}
+			}
+
+			&.menu02{
+				background-position: -1px -205px;
+				&:hover{
+					background-position: -311px -205px;
+				}
+			}
+
+			&.menu03{
+				background-position: -1px -274px;
+				&:hover{
+					background-position: -311px -274px;
+				}
+			}
+
+			&.menu04{
+				background-position: 0 -345px;
+				&:hover{
+					background-position: -310px -345px;
+				}
+			}
+
+			&.menu05{
+				background-position: -1px -413px;
+				&:hover{
+					background-position: -311px -413px;
+				}
+			}
+
+			&.menu06{
+				background-position: -1px -483px;
+				margin-right: none;
+				&:hover{
+					background-position: -311px -483px;
+				}
+			}
+
 		}
 	}
+
 }
 
 

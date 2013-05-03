@@ -11,6 +11,7 @@ Tags: Site institucional, Contabilidade, Moderno
   width: 1024px;
   margin: 0 auto;
   overflow: hidden;
+  padding: 0;
 }
 header#topo {
   width: 100%;
@@ -62,4 +63,66 @@ header#topo nav#topo2 ul a:hover {
 }
 header#topo nav#topo2 ul li {
   margin: 10px 13px;
+}
+nav#menu {
+  width: 100%;
+  height: 80px;
+  background-color: #454545;
+  overflow: hidden;
+}
+nav#menu ul {
+  margin: 0;
+  padding: 0;
+}
+nav#menu ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+}
+nav#menu ul a:hover {
+  color: #0080b8;
+}
+nav#menu ul li {
+  float: left;
+  margin: 20px 50px 20px 0;
+  padding-left: 45px;
+  background: url('../img/tofoo.png') no-repeat;
+}
+nav#menu ul li.menu01 {
+  background-position: -1px -134px;
+}
+nav#menu ul li.menu01:hover {
+  background-position: -311px -134px;
+}
+nav#menu ul li.menu02 {
+  background-position: -1px -205px;
+}
+nav#menu ul li.menu02:hover {
+  background-position: -311px -205px;
+}
+nav#menu ul li.menu03 {
+  background-position: -1px -274px;
+}
+nav#menu ul li.menu03:hover {
+  background-position: -311px -274px;
+}
+nav#menu ul li.menu04 {
+  background-position: 0 -345px;
+}
+nav#menu ul li.menu04:hover {
+  background-position: -310px -345px;
+}
+nav#menu ul li.menu05 {
+  background-position: -1px -413px;
+}
+nav#menu ul li.menu05:hover {
+  background-position: -311px -413px;
+}
+nav#menu ul li.menu06 {
+  background-position: -1px -483px;
+  margin-right: none;
+}
+nav#menu ul li.menu06:hover {
+  background-position: -311px -483px;
 }
