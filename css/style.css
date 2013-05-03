@@ -7,6 +7,86 @@ Author: Marcelo Azevedo / Daniel Telles
 Author URL: http://www.ligatecnologia.com.br
 Tags: Site institucional, Contabilidade, Moderno
 */
+/*RESET
+==============================================================*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 101.1%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+}
+option:checked {
+  background: none;
+}
+/*Variaveis e Funções
+==============================================================*/
+/*Inicil
+==============================================================*/
 .center {
   width: 1024px;
   margin: 0 auto;
@@ -125,4 +205,76 @@ nav#menu ul li.menu06 {
 }
 nav#menu ul li.menu06:hover {
   background-position: -311px -483px;
+}
+section#banner {
+  width: 100%;
+  height: 536px;
+  overflow: hidden;
+  background: url(../img/bg/banner01.png) center, url(../img/bg/banner02.png) center;
+  background-color: #cfd2d7;
+}
+section#banner img {
+  float: left;
+  margin-right: -200px;
+  width: 803px;
+  height: 536px;
+}
+section#banner h1 {
+  width: 410px;
+  float: left;
+  color: #0080b8;
+  font-size: 105px;
+  line-height: 80px;
+  letter-spacing: -4px;
+  font-weight: bold;
+  margin-top: 130px;
+  text-shadow: 2px 2px 1px #999;
+}
+section#banner h1 .sombra20 {
+  position: absolute;
+  text-shadow: none;
+  background: #259fd4 -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section#banner h1 span {
+  margin-left: 5px;
+  color: #454545;
+  text-shadow: none;
+  background: #555555 -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section#banner h2 {
+  float: left;
+  color: #0080b8;
+  font-size: 53px;
+  font-weight: bold;
+  letter-spacing: -3px;
+  margin-top: -7px;
+  padding: 0 5px;
+  background: #259fd4 -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section#banner h4 {
+  float: left;
+  font-size: 20px;
+  color: #666666;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+section#banner h3 {
+  float: left;
+  width: 400px;
+  font-size: 25px;
+  line-height: 32px;
+  color: #666666;
+  font-weight: bold;
+  margin-left: 10px;
+}
+section#banner h3 span {
+  color: #0080b8;
 }
