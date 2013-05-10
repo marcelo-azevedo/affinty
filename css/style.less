@@ -50,6 +50,38 @@ option:checked{background: none}
 	float: left;
 }
 
+.page(){
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	margin-top: 35px;
+
+	h1{
+		font-size: 24px;
+		margin-bottom: 0px;
+	}
+
+	nav#breadcrumb{
+		position: absolute;
+		margin-top: 10px;
+		ul{
+
+			li{
+				float: left;
+				font-size: 11px;
+				color: #0080b8;
+
+				a{
+					color: #a8a8a8;
+					border-right: 1px solid #a8a8a8;
+					padding-right: 10px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
 
 /*Inicil
 ==============================================================*/
@@ -89,6 +121,7 @@ header#topo{
 		width: 159px; 
 		height: 77px;
 		float: left;
+		margin-top: 10px;
 	}
 
 	nav{
@@ -318,7 +351,8 @@ section#sobre{
 		width: 367px;
 		float: left;
 		font-size: 13px;
-		margin-bottom: 25px;
+		margin-bottom: 24px;
+		line-height: 19px;
 		letter-spacing: 1px;
 		color: @corT;
 	}
@@ -515,7 +549,85 @@ footer#footer{
 
 }
 
+/*PAGE QUEM SOMOS
+==============================================================*/
 
+section#quem-somos{
+	.page;
+
+	article#quem-somos-cont{
+		margin-top: 70px;
+		overflow: hidden;
+
+		img{
+		width: 256px;
+		height: 329px;
+		float: left;
+		margin-right: 20px;
+		}
+
+		p{
+			width: 590px;
+			float: left;
+			font-size: 13px;
+			margin-bottom: 24px;
+			line-height: 19px;
+			letter-spacing: 1px;
+			color: @corT;
+		}
+	}
+
+	section#fotos-empresa{
+		margin: 20px 0 0 30px;
+		button{
+			border: none;
+			position: absolute;
+			margin-top: 70px;
+
+			&#seta-dir{
+				background: url('../img/tofoo.png') no-repeat -1px -554px; 
+				width: 23px; height: 59px;
+
+				&:hover{
+					background: url('../img/tofoo.png') no-repeat -1px -627px; 
+					width: 23px; height: 59px;
+				}
+
+			}
+
+			&#seta-esq{
+				background: url('../img/tofoo.png') no-repeat -40px -554px; 
+				width: 23px; height: 59px;
+				margin-left: 735px;
+
+				&:hover{
+					background: url('../img/tofoo.png') no-repeat -40px -627px; 
+					width: 23px; height: 59px;
+				}
+			}
+		}
+
+		ul{
+			width: 710px;
+			padding: 12px 0;
+			margin-left: 30px;
+			margin-top: -12px;
+			overflow: hidden;
+
+			li{
+				float: left;
+				border: 2px solid #fff;
+				margin: 0 18px;
+				cursor: pointer;
+
+				&:hover{
+					.sombra-box(10px, 0.3);
+				}
+			}
+		}
+
+	}
+}
 
 
 

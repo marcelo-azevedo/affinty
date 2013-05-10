@@ -119,6 +119,7 @@ header#topo #logo {
   width: 159px;
   height: 77px;
   float: left;
+  margin-top: 10px;
 }
 header#topo nav {
   float: left;
@@ -317,7 +318,8 @@ section#sobre p {
   width: 367px;
   float: left;
   font-size: 13px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
+  line-height: 19px;
   letter-spacing: 1px;
   color: #666666;
 }
@@ -476,4 +478,97 @@ footer#footer h4 {
   font-size: 14px;
   font-weight: bold;
   color: #454545;
+}
+/*PAGE QUEM SOMOS
+==============================================================*/
+section#quem-somos {
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  margin-top: 35px;
+}
+section#quem-somos h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+section#quem-somos nav#breadcrumb {
+  position: absolute;
+  margin-top: 10px;
+}
+section#quem-somos nav#breadcrumb ul li {
+  float: left;
+  font-size: 11px;
+  color: #0080b8;
+}
+section#quem-somos nav#breadcrumb ul li a {
+  color: #a8a8a8;
+  border-right: 1px solid #a8a8a8;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+section#quem-somos article#quem-somos-cont {
+  margin-top: 70px;
+  overflow: hidden;
+}
+section#quem-somos article#quem-somos-cont img {
+  width: 256px;
+  height: 329px;
+  float: left;
+  margin-right: 20px;
+}
+section#quem-somos article#quem-somos-cont p {
+  width: 590px;
+  float: left;
+  font-size: 13px;
+  margin-bottom: 24px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #666666;
+}
+section#quem-somos section#fotos-empresa {
+  margin: 20px 0 0 30px;
+}
+section#quem-somos section#fotos-empresa button {
+  border: none;
+  position: absolute;
+  margin-top: 70px;
+}
+section#quem-somos section#fotos-empresa button#seta-dir {
+  background: url('../img/tofoo.png') no-repeat -1px -554px;
+  width: 23px;
+  height: 59px;
+}
+section#quem-somos section#fotos-empresa button#seta-dir:hover {
+  background: url('../img/tofoo.png') no-repeat -1px -627px;
+  width: 23px;
+  height: 59px;
+}
+section#quem-somos section#fotos-empresa button#seta-esq {
+  background: url('../img/tofoo.png') no-repeat -40px -554px;
+  width: 23px;
+  height: 59px;
+  margin-left: 735px;
+}
+section#quem-somos section#fotos-empresa button#seta-esq:hover {
+  background: url('../img/tofoo.png') no-repeat -40px -627px;
+  width: 23px;
+  height: 59px;
+}
+section#quem-somos section#fotos-empresa ul {
+  width: 710px;
+  padding: 12px 0;
+  margin-left: 30px;
+  margin-top: -12px;
+  overflow: hidden;
+}
+section#quem-somos section#fotos-empresa ul li {
+  float: left;
+  border: 2px solid #fff;
+  margin: 0 18px;
+  cursor: pointer;
+}
+section#quem-somos section#fotos-empresa ul li:hover {
+  -webkit-box-shadow: 0px 0px 15px 0px 0.5 ;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
 }
