@@ -178,51 +178,50 @@ nav#menu ul a {
   text-decoration: none;
   font-size: 15px;
   line-height: 18px;
+  float: left;
+  margin: 20px 50px 20px 0;
+  padding-left: 45px;
+  width: 75px;
+  background: url('../img/tofoo.png') no-repeat;
 }
 nav#menu ul a:hover {
   color: #0080b8;
 }
-nav#menu ul li {
-  float: left;
-  margin: 20px 50px 20px 0;
-  padding-left: 45px;
-  background: url('../img/tofoo.png') no-repeat;
-}
-nav#menu ul li.menu01 {
+nav#menu ul li.menu01 a {
   background-position: -1px -134px;
 }
-nav#menu ul li.menu01:hover {
+nav#menu ul li.menu01 a:hover {
   background-position: -311px -134px;
 }
-nav#menu ul li.menu02 {
+nav#menu ul li.menu02 a {
   background-position: -1px -205px;
 }
-nav#menu ul li.menu02:hover {
+nav#menu ul li.menu02 a:hover {
   background-position: -311px -205px;
 }
-nav#menu ul li.menu03 {
+nav#menu ul li.menu03 a {
   background-position: -1px -274px;
 }
-nav#menu ul li.menu03:hover {
+nav#menu ul li.menu03 a:hover {
   background-position: -311px -274px;
 }
-nav#menu ul li.menu04 {
+nav#menu ul li.menu04 a {
   background-position: 0 -345px;
 }
-nav#menu ul li.menu04:hover {
+nav#menu ul li.menu04 a:hover {
   background-position: -310px -345px;
 }
-nav#menu ul li.menu05 {
+nav#menu ul li.menu05 a {
   background-position: -1px -413px;
 }
-nav#menu ul li.menu05:hover {
+nav#menu ul li.menu05 a:hover {
   background-position: -311px -413px;
 }
-nav#menu ul li.menu06 {
+nav#menu ul li.menu06 a {
   background-position: -1px -483px;
   margin-right: none;
 }
-nav#menu ul li.menu06:hover {
+nav#menu ul li.menu06 a:hover {
   background-position: -311px -483px;
 }
 section#banner {
@@ -309,8 +308,6 @@ section#sobre h1 {
   width: 410px;
 }
 section#sobre img {
-  width: 256px;
-  height: 329px;
   float: left;
   margin-right: 20px;
 }
@@ -512,14 +509,16 @@ section#quem-somos article#quem-somos-cont {
   overflow: hidden;
 }
 section#quem-somos article#quem-somos-cont img {
-  width: 256px;
-  height: 329px;
-  float: left;
   margin-right: 20px;
 }
-section#quem-somos article#quem-somos-cont p {
-  width: 590px;
+section#quem-somos article#quem-somos-cont img.alignleft {
   float: left;
+}
+section#quem-somos article#quem-somos-cont img.alignright {
+  float: right;
+}
+section#quem-somos article#quem-somos-cont p {
+  width: 840px;
   font-size: 13px;
   margin-bottom: 24px;
   line-height: 19px;

@@ -193,62 +193,62 @@ nav#menu{
 			text-decoration: none;
 			font-size: 15px;
 			line-height: 18px;
+			float: left;
+			margin: 20px 50px 20px 0;
+			padding-left: 45px;
+			width: 75px;
+			background: url('../img/tofoo.png') no-repeat;
 
 			&:hover{
 				color: @blue;
 			}
-		}
-
-		li{
-			float: left;
-			margin: 20px 50px 20px 0;
-			padding-left: 45px;
-			background: url('../img/tofoo.png') no-repeat;
-
-			&.menu01{
-				background-position: -1px -134px;
-				&:hover{
-					background-position: -311px -134px;
-				}
-			}
-
-			&.menu02{
-				background-position: -1px -205px;
-				&:hover{
-					background-position: -311px -205px;
-				}
-			}
-
-			&.menu03{
-				background-position: -1px -274px;
-				&:hover{
-					background-position: -311px -274px;
-				}
-			}
-
-			&.menu04{
-				background-position: 0 -345px;
-				&:hover{
-					background-position: -310px -345px;
-				}
-			}
-
-			&.menu05{
-				background-position: -1px -413px;
-				&:hover{
-					background-position: -311px -413px;
-				}
-			}
-
-			&.menu06{
-				background-position: -1px -483px;
-				margin-right: none;
-				&:hover{
-					background-position: -311px -483px;
-				}
-			}
+			
 
 		}
+
+		li.menu01 a{
+			background-position: -1px -134px;
+			&:hover{
+				background-position: -311px -134px;
+			}
+		}
+
+		li.menu02 a{
+			background-position: -1px -205px;
+			&:hover{
+				background-position: -311px -205px;
+			}
+		}
+
+		li.menu03 a{
+			background-position: -1px -274px;
+			&:hover{
+				background-position: -311px -274px;
+			}
+		}
+
+		li.menu04 a{
+			background-position: 0 -345px;
+			&:hover{
+				background-position: -310px -345px;
+			}
+		}
+
+		li.menu05 a{
+			background-position: -1px -413px;
+			&:hover{
+				background-position: -311px -413px;
+			}
+		}
+
+		li.menu06 a{
+			background-position: -1px -483px;
+			margin-right: none;
+			&:hover{
+				background-position: -311px -483px;
+			}
+		}
+
 	}
 
 }
@@ -341,8 +341,6 @@ section#sobre{
 	}
 
 	img{
-		width: 256px;
-		height: 329px;
 		float: left;
 		margin-right: 20px;
 	}
@@ -560,15 +558,17 @@ section#quem-somos{
 		overflow: hidden;
 
 		img{
-		width: 256px;
-		height: 329px;
-		float: left;
 		margin-right: 20px;
+		  &.alignleft{
+		    float:left;
+		  }
+		  &.alignright{
+		    float:right;
+		  }
 		}
 
 		p{
-			width: 590px;
-			float: left;
+			width: 840px;
 			font-size: 13px;
 			margin-bottom: 24px;
 			line-height: 19px;
